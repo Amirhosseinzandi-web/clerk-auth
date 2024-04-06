@@ -43,7 +43,7 @@ const Home = async () => {
           priority
         />
       </div>
-      <Link href="/auth/sign-in" className={userId ? "hidden" : ""}>sign in</Link>
+      <Link href="/sign-in" className={userId ? "hidden" : ""}>sign in</Link>
       <p>{userId ? "you have logged in" : "you have not logged in"}</p>
       <UserButton afterSignOutUrl="/" />
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
